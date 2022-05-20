@@ -563,6 +563,11 @@ h1, h2, h3, h4, h5, h6 {
           align-items: center;
   justify-items: center;
 }
+@media (max-width: 397px) {
+  .skills__items {
+            padding-left: 40px;
+        }
+}
 .skills__item {
   background-color: #383E45;
   width: 80px;
